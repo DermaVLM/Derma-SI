@@ -1,0 +1,245 @@
+{
+    "seed_tasks_for_disease": [
+      {
+        "id": "task_001",
+        "title": "Definition & Basic Concepts",
+        "prompt": "What is <DISEASE_NAME>, and how is it generally defined in medical literature?",
+        "description": "Establish a clear, high-level understanding of the disease."
+      },
+      {
+        "id": "task_002",
+        "title": "Synonyms & Terminology",
+        "prompt": "Are there any alternative names, historical terms, or specific subtypes commonly used to describe <DISEASE_NAME>?",
+        "description": "Explore the different terms used in clinical and research contexts."
+	},
+      {
+        "id": "task_003",
+        "title": "Historical Perspective & Etymology",
+        "prompt": "How was <DISEASE_NAME> historically perceived or treated, and what is the origin of its name?",
+        "description": "Provide historical context and evolution of understanding."
+      },
+      {
+	"id": "task_004",
+        "title": "Epidemiology",
+        "prompt": "Which demographics are most at risk for <DISEASE_NAME>, and what are its incidence/prevalence rates globally?",
+        "description": "Cover geographic and population-level data." 
+	},
+      {
+        "id": "task_005",
+	"title": "Etiology & Causes",
+        "prompt": "What are the primary factors (environmental, genetic, lifestyle) that initiate or exacerbate <DISEASE_NAME>?",
+        "description": "Identify root causes and risk factors for disease onset."
+      },
+      {
+        "id": "task_006",
+          "title": "Pathophysiology",
+        "prompt": "Which core biological processes (immune, genetic, metabolic) underlie <DISEASE_NAME>?",
+        "description": "Focus on mechanisms that drive disease development."
+      },
+      {
+        "id": "task_007",
+        "title": "Signs & Symptoms",
+        "prompt": "What are the key clinical features of <DISEASE_NAME>, and how do they present in mild vs. severe cases?",
+        "description": "Summarize typical clinical presentations."
+      },
+      {
+        "id": "task_008",
+        "title": "Diagnosis & Clinical Evaluation",
+        "prompt": "Which methods—physical exam findings, patient history, lab tests—are most pivotal to diagnosing <DISEASE_NAME>?",
+        "description": "Cover both basic and advanced diagnostic approaches."
+      },
+      {
+        "id": "task_009",
+        "title": "Dermatoscopic Diagnosis",
+        "prompt": "What characteristic dermatoscopic patterns help distinguish <DISEASE_NAME> from other similar conditions?",
+        "description": "Focus on non-invasive visualization techniques."
+      },
+      {
+        "id": "task_010",
+        "title": "Histopathologic Findings",
+        "prompt": "Which microscopic tissue changes (e.g., inflammatory markers, structural alterations) are indicative of <DISEASE_NAME>?",
+        "description": "Summarize biopsy-based diagnostic clues."
+      },
+      {
+        "id": "task_011",
+	"title": "Molecular Analysis & Biomarkers",
+        "prompt": "Which molecular pathways and biomarkers are currently studied or used to understand <DISEASE_NAME> more precisely?",
+        "description": "Highlight genetic or serological factors."
+      },
+      {
+        "id": "task_012",
+        "title": "Subtypes & Variants",
+        "prompt": "How is <DISEASE_NAME> classified into different subtypes, and what clinical traits define each variant?",
+        "description": "Outline the disease spectrum."
+      },
+      {
+        "id": "task_013",
+        "title": "Disease in Pregnancy",
+        "prompt": "How does <DISEASE_NAME> manifest or progress during pregnancy, and what special considerations apply to treatment?",
+        "description": "Address hormonal and safety issues relevant to pregnant patients."
+      },
+      {
+        "id": "task_014",
+        "title": "Comorbidities & Complexity",
+        "prompt": "What other conditions (e.g., asthma, arthritis, metabolic disorders) commonly co-occur with <DISEASE_NAME>, and how do they influence management?",
+        "description": "Explore multi-system interactions."
+	},
+      {
+        "id": "task_015",
+        "title": "Psychological/Mental Health Impact",
+        "prompt": "How does <DISEASE_NAME> affect mental health, and which strategies (e.g., counseling, support groups) can mitigate psychological stress?",
+        "description": "Highlight the psychosocial dimension of chronic skin disease."
+      },
+      {
+        "id": "task_016",
+        "title": "Communication with Patient",
+        "prompt": "Which strategies and educational approaches can improve understanding and adherence among patients with <DISEASE_NAME>?",
+        "description": "Emphasize patient-centered communication."
+      },
+      {
+        "id": "task_017",
+        "title": "Lifestyle & Preventive Measures",
+        "prompt": "How can lifestyle, diet, or environmental modifications help in preventing or minimizing <DISEASE_NAME> flares?",
+        "description": "Highlight non-pharmacological strategies."
+      },
+      {
+        "id": "task_018",
+        "title": "Treatment & Management",
+        "prompt": "Which first-line therapies, second-line options, and advanced treatments (e.g., biologics) exist for <DISEASE_NAME>?",
+        "description": "Cover standard treatments, emerging options, and their effectiveness."
+      },
+      {
+        "id": "task_019",
+        "title": "Infection Risks & Preventive Measures",
+        "prompt": "How can patients with <DISEASE_NAME> reduce the risk of secondary infections, and what prophylactic measures might be needed?",
+        "description": "Focus on complications involving opportunistic or secondary infections."
+	},
+      {
+        "id": "task_020",
+        "title": "Pediatric & Geriatric Considerations",
+        "prompt": "Does <DISEASE_NAME> manifest differently in children or older adults, and how should treatment be adapted?",
+        "description": "Discuss life-stage variations in disease presentation and management."
+ 	},
+      {
+        "id": "task_021",
+        "title": "Multidisciplinary Collaboration",
+        "prompt": "Which other specialists (e.g., rheumatology, endocrinology) might be involved in caring for <DISEASE_NAME>, and how is cross-specialty communication handled?",
+        "description": "Emphasize team-based care for complex or comorbid cases."
+      },
+      {
+        "id": "task_022",
+        "title": "Prognosis & Long-Term Outlook",
+        "prompt": "What is the expected disease course, and which factors predict a favorable or poor outcome in <DISEASE_NAME>?",
+        "description": "Address remission rates, chronicity, and complications."
+	},
+      {
+        "id": "task_023",
+        "title": "Recommendations for Structured Follow-Up",
+        "prompt": "What follow-up schedule and evaluation methods are recommended for patients with <DISEASE_NAME> to track disease progression?",
+        "description": "Cover best practices for ongoing patient monitoring."
+	},
+      {
+        "id": "task_024",
+        "title": "Telemedicine & Remote Management",
+        "prompt": "Can <DISEASE_NAME> be effectively evaluated or managed via teledermatology, and what are the limitations?",
+        "description": "Outline best practices for remote consultations."
+      },
+      {
+        "id": "task_025",
+        "title": "Research & Emerging Therapies",
+        "prompt": "What are the latest findings or recent studies focusing on <DISEASE_NAME>, and what do they suggest for future care?",
+        "description": "Highlight ongoing research or noteworthy publications."
+	},
+      {
+        "id": "task_026",
+        "title": "Future Directions for Treatment",
+        "prompt": "What novel or investigational therapies are on the horizon for <DISEASE_NAME>, and how might they improve patient outcomes?",
+        "description": "Include pipeline treatments or clinical trials."
+      },
+      {
+        "id": "task_027",
+        "title": "Public Health Perspective",
+        "prompt": "How do public health initiatives or guidelines address <DISEASE_NAME> at a population level?",
+        "description": "Discuss screening, prevention campaigns, or community interventions."
+   },
+      {
+        "id": "task_028",
+        "title": "Culture & Ethnic Considerations",
+        "prompt": "Which cultural or ethnic factors might influence the presentation, perception, or treatment of <DISEASE_NAME>?",
+        "description": "Address cultural beliefs, genetic predispositions, or differences in skin types."
+      },
+      {
+        "id": "task_029",
+        "title": "Cost & Insurance Considerations",
+        "prompt": "How might cost or insurance coverage influence treatment decisions for <DISEASE_NAME>?",
+        "description": "Discuss real-world barriers to care and potential solutions."
+      },
+      {
+        "id": "task_030",
+        "title": "Ethical & Legal Aspects",
+        "prompt": "Are there any ethical concerns, consent issues, or medicolegal challenges commonly arising with <DISEASE_NAME>?",
+        "description": "Cover patient autonomy, consent for procedures, or rare legal cases."
+      },
+      {
+        "id": "task_031",
+        "title": "Multi-Step Clinical Reasoning",
+        "prompt": "Outline a step-by-step diagnostic approach for a complex case of <DISEASE_NAME> involving ambiguous findings, from patient history to final treatment decision.",
+        "description": "Encourage systematic chain-of-thought and detailed reasoning steps."
+      },
+      {
+        "id": "task_032",
+        "title": "Conflict or Contradiction Resolution",
+        "prompt": "Discuss how to handle contradictory results (e.g., negative biopsy but suspicious dermatoscopic exam) for <DISEASE_NAME> and propose next steps.",
+        "description": "Model must resolve inconsistent or conflicting data logically."
+      },
+      {
+        "id": "task_033",
+        "title": "Differential Diagnosis with Ambiguous Data",
+        "prompt": "Present at least three alternative diagnoses when <DISEASE_NAME> has overlapping symptoms with other conditions, and specify which further data is needed to confirm or exclude each.",
+        "description": "Promote multi-hypothesis generation and data-driven decision-making."
+      },
+      {
+        "id": "task_034",
+        "title": "Prioritization & Triage",
+        "prompt": "Given multiple patients showing signs of <DISEASE_NAME> at varying severity levels, determine who should be assessed first and justify your triage order.",
+        "description": "Assess urgency based on clinical severity and risk of complications."
+      },
+      {
+        "id": "task_035",
+        "title": "Cost-Benefit & Real-World Constraints",
+        "prompt": "Propose a management plan for <DISEASE_NAME> in a patient with limited financial resources or insurance restrictions.",
+        "description": "Demonstrate practical decision-making under real-world constraints."
+      },
+      {
+        "id": "task_036",
+        "title": "Complex Comorbidities",
+        "prompt": "Outline a treatment strategy for <DISEASE_NAME> in a patient with two additional comorbidities (e.g., diabetes and rheumatoid arthritis) and consider potential drug interactions or dose adjustments.",
+        "description": "Integrate multiple conditions and their treatment implications."
+      },
+      {
+        "id": "task_037",
+        "title": "Evidence Synthesis & Guideline Comparison",
+        "prompt": "Compare at least two clinical guidelines for <DISEASE_NAME> and reconcile any conflicting recommendations into a unified care approach.",
+        "description": "Practice cross-referencing guidelines and forming a cohesive plan."
+      },
+      {
+        "id": "task_038",
+        "title": "What-If Scenario Analysis",
+        "prompt": "If a patient with <DISEASE_NAME> develops an unexpected complication (e.g., severe drug reaction), how would you adjust the treatment plan and coordinate care?",
+        "description": "Test the model’s adaptability to unforeseen changes."
+      },
+      {
+        "id": "task_039",
+        "title": "Incomplete or Evolving Data",
+        "prompt": "Describe how you would manage <DISEASE_NAME> while waiting for key lab results or biopsy outcomes. What provisional treatments or precautions would you take?",
+        "description": "Address decision-making in uncertain or partial-data scenarios."
+      },
+      {
+        "id": "task_040",
+        "title": "Reflective & Meta-Cognitive Prompt",
+        "prompt": "Discuss common cognitive biases (e.g., anchoring bias) that may lead to delayed or incorrect diagnosis of <DISEASE_NAME>, and propose strategies to mitigate them.",
+        "description": "Encourage self-critical thinking and error-prevention awareness."
+      }
+    ]
+  }
+  

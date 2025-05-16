@@ -1,0 +1,389 @@
+{
+  "disease_categories": [
+    {
+      "name": "Neoplastic Skin Conditions (Tumors)",
+      "questions": [
+        {
+          "title": "Classification & Tumor Biology",
+          "prompt": "For <DISEASE_NAME>, how is it classified (e.g., benign vs. malignant), and what cellular changes define it?",
+          "description": "Covers basic tumor pathology such as cell origin, dysplasia, and atypical proliferation."
+        },
+        {
+          "title": "Risk Factors & Carcinogenesis",
+          "prompt": "Which risk factors (UV exposure, genetic predisposition, immunosuppression) contribute to <DISEASE_NAME>, and how do they promote carcinogenesis?",
+          "description": "Explores the interplay between environmental exposures and genetic susceptibility."
+        },
+        {
+          "title": "Diagnostic Approach",
+          "prompt": "What steps (clinical exam, dermoscopy, biopsy) are essential to accurately diagnose <DISEASE_NAME>, and how do you choose among them?",
+          "description": "Emphasizes lesion evaluation, histopathologic confirmation, and staging considerations."
+        },
+        {
+          "title": "Staging & Prognostic Indicators",
+          "prompt": "How are advanced forms of <DISEASE_NAME> staged (e.g., TNM), and which prognostic indicators guide therapy choices?",
+          "description": "Details how staging impacts treatment approach and long-term outcomes."
+        },
+        {
+          "title": "Treatment Modalities",
+          "prompt": "Compare surgical resection, radiation, immunotherapy, and targeted therapies for <DISEASE_NAME>. When is multimodal therapy indicated?",
+          "description": "Covers Mohs surgery for BCC/SCC, immunotherapies for melanoma, and emerging targeted agents."
+        },
+        {
+          "title": "Recurrence & Long-Term Monitoring",
+          "prompt": "What follow-up protocols minimize recurrence in patients with <DISEASE_NAME>, and how are metastatic lesions monitored over time?",
+          "description": "Addresses ongoing skin checks, imaging intervals, and secondary prevention measures."
+        }
+      ]
+    },
+    {
+      "name": "Vascular Skin Disorders",
+      "questions": [
+        {
+          "title": "Pathophysiology & Classification",
+          "prompt": "What mechanisms underlie <DISEASE_NAME> (a vascular skin disorder), and how is it typically classified (capillary vs. venous vs. mixed)?",
+          "description": "Considers hemangiomas, port-wine stains, varicose eczema, etc."
+        },
+        {
+          "title": "Clinical Presentations & Variants",
+          "prompt": "How does <DISEASE_NAME> present in different age groups, and what are its key clinical variants or subtypes?",
+          "description": "Demonstrates diversity within vascular conditions and typical age of onset."
+        },
+        {
+          "title": "Diagnostic Tools",
+          "prompt": "Which imaging or diagnostic techniques confirm vascular involvement in <DISEASE_NAME> and guide management?",
+          "description": "Addresses the importance of blood flow studies or deeper imaging for complex lesions."
+        },
+        {
+          "title": "Treatment & Interventional Options",
+          "prompt": "Compare conservative management, laser therapy, sclerotherapy, or surgery for <DISEASE_NAME>. Which factors dictate the best approach?",
+          "description": "Includes thresholds for intervention vs. observation, especially in pediatric cases."
+        },
+        {
+          "title": "Systemic Associations",
+          "prompt": "If <DISEASE_NAME> is syndromic (e.g., PHACE, Sturge-Weber), what other organ systems might be involved?",
+          "description": "Highlights syndromic associations with neurological or visceral manifestations."
+        },
+        {
+          "title": "Long-Term Management & Cosmetic Concerns",
+          "prompt": "How does <DISEASE_NAME> evolve over time, and what strategies address cosmetic outcomes or functional impairments?",
+          "description": "Covers counseling about natural regression in some lesions and advanced approaches for persistent ones."
+        }
+      ]
+    },
+    {
+      "name": "Photosensitive Skin Disorders",
+      "questions": [
+        {
+          "title": "UV Spectrum & Pathogenesis",
+          "prompt": "Which UV wavelengths (UVA, UVB) trigger <DISEASE_NAME>, and what molecular damage leads to photosensitivity?",
+          "description": "Examines the role of oxidative stress, DNA damage, and immune response."
+        },
+        {
+          "title": "Common Presentations & Differentiation",
+          "prompt": "How does <DISEASE_NAME> differ from other photosensitive conditions (e.g., polymorphous light eruption) in clinical presentation?",
+          "description": "Emphasizes hallmark features and unique triggers."
+        },
+        {
+          "title": "Diagnostic Evaluation",
+          "prompt": "Which tests (e.g., phototesting, photopatch testing) confirm <DISEASE_NAME>?",
+          "description": "Details specialized investigations for identifying UV thresholds or photoallergens."
+        },
+        {
+          "title": "Prevention & Photoprotection",
+          "prompt": "Describe clothing, sunscreen, and behavioral modifications that reduce <DISEASE_NAME> flares.",
+          "description": "Cornerstone of prophylaxis and patient education for sun avoidance."
+        },
+        {
+          "title": "Medical Therapies",
+          "prompt": "Discuss topical or systemic treatments (e.g., steroids, antimalarials) used for managing moderate-to-severe <DISEASE_NAME>.",
+          "description": "Covers therapy escalation based on severity and tolerance."
+        },
+        {
+          "title": "Chronic Effects & Long-Term Follow-Up",
+          "prompt": "What complications arise from repeated UV exposure in patients with <DISEASE_NAME>, and how is it monitored over time?",
+          "description": "Highlights photoaging, actinic damage, and screening for precancerous lesions."
+        }
+      ]
+    },
+    {
+      "name": "Sexually Transmitted Diseases (Cutaneous Manifestations)",
+      "questions": [
+        {
+          "title": "Skin Findings & Pathogens",
+          "prompt": "Which pathogens cause <DISEASE_NAME>, and what are the typical skin or mucosal lesions associated with this STD?",
+          "description": "Focuses on primary vs. secondary lesions and viral/bacterial/fungal etiologies."
+        },
+        {
+          "title": "Transmission & Public Health",
+          "prompt": "How does <DISEASE_NAME> spread, and what screening or contact-tracing strategies help control it?",
+          "description": "Highlights prevention measures and partner notification."
+        },
+        {
+          "title": "Diagnostic Tools & Confirmatory Tests",
+          "prompt": "Which tests (serologic, PCR, microscopic) confirm <DISEASE_NAME> and differentiate it from similar STDs?",
+          "description": "Covers RPR/VDRL, NAAT tests, direct fluorescent antibody, etc."
+        },
+        {
+          "title": "Treatment & Resistance Management",
+          "prompt": "Discuss the recommended therapy for <DISEASE_NAME> and how you manage cases with potential drug resistance or allergies.",
+          "description": "Address first-line antibiotics/antivirals and alternative treatments."
+        },
+        {
+          "title": "Vaccination & Prevention",
+          "prompt": "If a vaccine is available (e.g., HPV), how does it reduce <DISEASE_NAME> prevalence, and what population is targeted?",
+          "description": "Focus on prophylactic measures, safe sex, and immunizations."
+        },
+        {
+          "title": "Psychosocial & Confidentiality Issues",
+          "prompt": "How do you manage confidentiality, stigma, and patient counseling for <DISEASE_NAME>?",
+          "description": "Examines privacy, shame, and mental health aspects."
+        }
+      ]
+    },
+    {
+      "name": "Sweat Gland Disorders",
+      "questions": [
+        {
+          "title": "Physiology of Sweat Glands",
+          "prompt": "For <DISEASE_NAME>, how do eccrine and/or apocrine gland dysfunctions lead to its clinical presentation?",
+          "description": "Sets the stage for conditions like hyperhidrosis, bromhidrosis, or hidradenitis suppurativa."
+        },
+        {
+          "title": "Clinical Features & Distribution",
+          "prompt": "Which body sites are typically affected by <DISEASE_NAME>, and how do symptoms (e.g., sweating, malodor, painful nodules) manifest?",
+          "description": "Distinguishes the hallmark presentations of different sweat gland issues."
+        },
+        {
+          "title": "Diagnostic Evaluation",
+          "prompt": "Which tests or exam techniques (e.g., Minor’s starch-iodine test) confirm <DISEASE_NAME> severity?",
+          "description": "Explains how to objectively assess sweating or glandular involvement."
+        },
+        {
+          "title": "Management Approaches",
+          "prompt": "Compare topical or oral medications, botulinum toxin injections, and surgical options for controlling <DISEASE_NAME>.",
+          "description": "Highlights stepwise therapy based on severity and patient response."
+        },
+        {
+          "title": "Lifestyle & Psychosocial Impact",
+          "prompt": "Which lifestyle modifications (clothing, hygiene, stress management) and patient support interventions improve quality of life for <DISEASE_NAME>?",
+          "description": "Addresses self-consciousness, stigma, and day-to-day coping."
+        },
+        {
+          "title": "Chronicity & Follow-Up",
+          "prompt": "How do you monitor chronic forms of <DISEASE_NAME>, prevent complications, and decide when to escalate treatment?",
+          "description": "Covers potential scarring or sinus tract formation in severe cases."
+        }
+      ]
+    },
+    {
+      "name": "Injury-Related Skin Conditions",
+      "questions": [
+        {
+          "title": "Types & Classification of Injury",
+          "prompt": "Which category does <DISEASE_NAME> fall under (e.g., burn, laceration, pressure ulcer), and how is it staged or classified by severity?",
+          "description": "Outlines the nature of the injury and standard classification systems."
+        },
+        {
+          "title": "Wound Healing Phases",
+          "prompt": "How do the inflammatory, proliferative, and remodeling phases of wound healing apply to <DISEASE_NAME>?",
+          "description": "Highlights normal healing progression and complications."
+        },
+        {
+          "title": "Acute vs. Chronic Wounds",
+          "prompt": "Explain how <DISEASE_NAME> can become chronic if not properly managed, and what factors contribute to non-healing wounds.",
+          "description": "Differentiates short-term trauma from persistent lesions."
+        },
+        {
+          "title": "Treatment & Dressing Selection",
+          "prompt": "Which wound dressings, debridement methods, or topical therapies are most beneficial for <DISEASE_NAME>, and how do you tailor them to the patient's needs?",
+          "description": "Covers modern dressings (hydrocolloids, foam, etc.) and individualized care plans."
+        },
+        {
+          "title": "Infection Control",
+          "prompt": "What signs suggest infection in <DISEASE_NAME> (e.g., chronic ulcer) and how do you balance prophylactic vs. therapeutic antibiotic use?",
+          "description": "Focus on infection risk, culture-based antibiotic selection, and antimicrobial stewardship."
+        },
+        {
+          "title": "Prevention & Scar Management",
+          "prompt": "How do you prevent future injuries or pressure ulcers in patients with <DISEASE_NAME>, and what strategies minimize scarring or contractures?",
+          "description": "Includes pressure offloading, rehabilitation, and scar revision techniques."
+        }
+      ]
+    },
+    {
+      "name": "Infectious Skin Diseases (Bacterial, Viral, Fungal, Parasitic)",
+      "questions": [
+        {
+          "title": "Pathogen Identification & Classification",
+          "prompt": "Which organism type (bacterial, viral, fungal, or parasitic) typically causes <DISEASE_NAME>, and how is it classified within that group?",
+          "description": "Focuses on the microbiological basis—Gram-positive/negative, dermatophytes vs. yeasts, DNA vs. RNA viruses, protozoa vs. helminths."
+        },
+        {
+          "title": "Transmission & Contagiousness",
+          "prompt": "How does <DISEASE_NAME> spread (person-to-person, animal-to-human, environmental) and what measures can reduce transmission?",
+          "description": "Addresses infection control, community prevention, and quarantine considerations."
+        },
+        {
+          "title": "Diagnostic Methods",
+          "prompt": "Which specific tests (e.g., KOH prep, culture, PCR, serologic assays) are used to confirm <DISEASE_NAME>, and when are they indicated?",
+          "description": "Emphasizes laboratory or clinical methods for definitive diagnosis."
+        },
+        {
+          "title": "Clinical Variants & Atypical Presentations",
+          "prompt": "In what ways can <DISEASE_NAME> present atypically or mimic other conditions, and what signs raise suspicion for an unusual strain?",
+          "description": "Encourages awareness of variable or confusing clinical pictures."
+        },
+        {
+          "title": "Treatment & Drug Resistance",
+          "prompt": "What is the first-line treatment for <DISEASE_NAME>, and how do you manage cases with known or suspected drug resistance?",
+          "description": "Addresses both standard therapy and scenarios requiring alternative or combination treatments."
+        },
+        {
+          "title": "Prevention & Public Health Impact",
+          "prompt": "Which vaccines, prophylactic measures, or public health interventions (if any) reduce the prevalence of <DISEASE_NAME>?",
+          "description": "Explores vaccination (if relevant), environmental controls, and broader public health strategies."
+        }
+      ]
+    },
+    {
+      "name": "Inflammatory and Autoimmune Skin Diseases",
+      "questions": [
+        {
+          "title": "Immunopathogenesis",
+          "prompt": "Which immunological pathways or cytokines drive <DISEASE_NAME>, and how do they cause tissue damage?",
+          "description": "Highlights T-helper subsets, cytokine cascades, and breakdown of immune tolerance."
+        },
+        {
+          "title": "Flares & Trigger Factors",
+          "prompt": "What environmental, emotional, or infectious triggers are known to precipitate flares of <DISEASE_NAME>?",
+          "description": "Examines the relapsing-remitting nature common in autoimmune processes."
+        },
+        {
+          "title": "Severity Assessment & Scoring",
+          "prompt": "Which clinical scoring systems (e.g., PASI, EASI) are used to quantify <DISEASE_NAME> severity and track treatment response?",
+          "description": "Promotes objective disease assessment for management decisions."
+        },
+        {
+          "title": "Systemic Involvement & Comorbidities",
+          "prompt": "How does <DISEASE_NAME> affect systems beyond the skin (e.g., joints, cardiovascular, metabolic) and alter management approaches?",
+          "description": "Stresses multi-organ involvement often seen in autoimmune disorders."
+        },
+        {
+          "title": "Immunomodulatory Therapies",
+          "prompt": "Compare first-line topical treatments to advanced systemic therapies (like biologics) for <DISEASE_NAME>. What factors dictate escalation?",
+          "description": "Guides clinical decision-making based on disease severity and comorbidities."
+        },
+        {
+          "title": "Long-Term Monitoring & Lifestyle Support",
+          "prompt": "How should patients with <DISEASE_NAME> be monitored over time to prevent complications, and what lifestyle adjustments (diet, stress management) can help?",
+          "description": "Emphasizes continuous follow-up, patient education, and holistic care."
+        }
+      ]
+    },
+    {
+      "name": "Allergic Skin Conditions",
+      "questions": [
+        {
+          "title": "Allergen Identification & Mechanisms",
+          "prompt": "Which allergens or irritants typically trigger <DISEASE_NAME>, and what immune mechanisms (IgE-mediated vs. delayed) are involved?",
+          "description": "Differentiates between immediate hypersensitivity (type I) and delayed hypersensitivity (type IV)."
+        },
+        {
+          "title": "Acute vs. Chronic Presentations",
+          "prompt": "How does <DISEASE_NAME> differ when presenting acutely (e.g., urticaria) versus in a chronic form (e.g., contact dermatitis)?",
+          "description": "Highlights the timeline and pathophysiology behind acute vs. chronic allergic processes."
+        },
+        {
+          "title": "Diagnostic Tools (Patch Testing, Prick Testing)",
+          "prompt": "What diagnostic methods help confirm allergen involvement in <DISEASE_NAME>, and how do you interpret their results?",
+          "description": "Focuses on patch tests for contact allergens, prick tests for IgE-mediated issues."
+        },
+        {
+          "title": "Avoidance & Desensitization",
+          "prompt": "Which strategies (e.g., allergen avoidance, immunotherapy) are effective for preventing or reducing flares of <DISEASE_NAME>?",
+          "description": "Covers both non-pharmacological and immunologic interventions."
+        },
+        {
+          "title": "Pharmacological Management",
+          "prompt": "Discuss the role of antihistamines, topical steroids, and other medications in controlling <DISEASE_NAME>. When do you escalate therapy?",
+          "description": "Outlines stepwise treatment and indications for stronger agents (e.g., systemic steroids)."
+        },
+        {
+          "title": "Impact on Quality of Life",
+          "prompt": "How do itchy, recurrent rashes from <DISEASE_NAME> affect daily life, and what measures can help patients cope with long-term symptom control?",
+          "description": "Acknowledges psychosocial distress and the need for patient-centered support."
+        }
+      ]
+    },
+    {
+      "name": "Genetic or Hereditary Skin Conditions",
+      "questions": [
+        {
+          "title": "Inheritance Patterns & Genetic Counseling",
+          "prompt": "What inheritance pattern (autosomal dominant, recessive, etc.) governs <DISEASE_NAME>, and how do you advise families about transmission risks?",
+          "description": "Addresses the likelihood of offspring inheriting the disease and genetic testing possibilities."
+        },
+        {
+          "title": "Pathophysiological Defects",
+          "prompt": "Which genes or proteins are mutated in <DISEASE_NAME>, and how do these defects cause clinical manifestations in the skin?",
+          "description": "Explains the mechanistic link between specific genetic alterations and skin phenotype."
+        },
+        {
+          "title": "Neonatal & Early-Onset Presentation",
+          "prompt": "How does <DISEASE_NAME> typically present in neonates or young children, and which interventions or special care steps are crucial?",
+          "description": "Covers early detection, supportive therapy, and multi-disciplinary pediatric care."
+        },
+        {
+          "title": "Wound Care & Symptom Management",
+          "prompt": "What specialized wound care, bandaging techniques, or supportive therapies improve quality of life for patients with <DISEASE_NAME>?",
+          "description": "Addresses daily management challenges in severe hereditary conditions (e.g., Epidermolysis Bullosa)."
+        },
+        {
+          "title": "Potential Gene & Cellular Therapies",
+          "prompt": "Are there experimental gene or stem cell therapies in development for <DISEASE_NAME>? What challenges remain?",
+          "description": "Highlights cutting-edge research on genetic correction approaches."
+        },
+        {
+          "title": "Psychosocial & Family Support",
+          "prompt": "How can healthcare providers support patients and families coping with chronic, life-altering effects of <DISEASE_NAME>?",
+          "description": "Emphasizes mental health resources, patient advocacy groups, and long-term care coordination."
+        }
+      ]
+    },
+    {
+      "name": "Pigmentation Disorders",
+      "questions": [
+        {
+          "title": "Melanocyte Biology & Pathophysiology",
+          "prompt": "How do alterations in melanocyte function or distribution lead to <DISEASE_NAME> presenting as hypo- or hyperpigmentation?",
+          "description": "Examines the cellular basis of pigmentary changes (e.g., vitiligo, melasma)."
+        },
+        {
+          "title": "Clinical Variants & Differential Diagnosis",
+          "prompt": "Which conditions mimic <DISEASE_NAME> in terms of pigment changes, and how are they distinguished clinically or histologically?",
+          "description": "Addresses confusion between post-inflammatory hypopigmentation, vitiligo, tinea versicolor, etc."
+        },
+        {
+          "title": "Triggers & Exacerbating Factors",
+          "prompt": "What role do hormones, sun exposure, or autoimmune processes play in flares or progression of <DISEASE_NAME>?",
+          "description": "Discusses environmental, hormonal, and immunologic influences on pigmentary conditions."
+        },
+        {
+          "title": "Treatment Options",
+          "prompt": "Compare topical agents (e.g., steroids, hydroquinone) to procedural treatments (laser, phototherapy) for managing <DISEASE_NAME>.",
+          "description": "Covers medical, cosmetic, and device-based interventions."
+        },
+        {
+          "title": "Camouflage & Psychosocial Support",
+          "prompt": "How can cosmetic camouflage, counseling, or support groups assist individuals coping with the visible nature of <DISEASE_NAME>?",
+          "description": "Recognizes emotional impact and body image concerns."
+        },
+        {
+          "title": "Disease Course & Prognosis",
+          "prompt": "Is <DISEASE_NAME> stable, progressive, or relapsing, and which factors predict long-term outcomes or repigmentation success?",
+          "description": "Addresses spontaneous remission vs. chronic progression and success rates with therapy."
+        }
+      ]
+    }
+  ]
+}

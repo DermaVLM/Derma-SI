@@ -1,0 +1,13 @@
+google-generativeai
+torch
+transformers
+numpy
+pandas
+scikit-learn
+tqdm
+python-dotenv
+datasets
+huggingface_hub
+Pillow
+matplotlib
+seaborn

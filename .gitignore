@@ -1,0 +1,15 @@
+.vscode/
+__pycache__/
+mnt/*
+!mnt/seed_data.json
+!mnt/derma_seed_tasks.jsonl
+!mnt/derma_seed_tasks.json
+!mnt/disease_seed_tasks_eg.json
+!mnt/disease_specific_seed_tasks.json
+!mnt/task_pool_checkpoint.json
+!mnt/task_pool_checkpoint_filtered.json
+arc/
+docs/
+.env
+*.log
+derm_self_instruct/text_eval_generation/**/
